@@ -19,4 +19,3 @@ Each media entity encapsulates shared attributes like name and price, while spec
 - **Alphabetical Catalog Sorting:** Reorders the entire media catalog from A to Z based on title using the overloaded comparison operator.
 - **Context-Aware Object Display:** Uses dynamic binding to automatically invoke each derived class's specific `print()` routine, presenting specialized attributes alongside base fields.
 - **Formatted Currency Output:** Leverages `<iomanip>` stream manipulators (`ios::fixed`, `ios::showpoint`, `setprecision(2)`) to display formatted pricing.
-```
